@@ -42,8 +42,7 @@ public class IOSTest  {
         driver.hideKeyboard();
         driver.findElement(By.xpath("//*[@id='passwordTextField']")).sendKeys("company");
         driver.findElement(By.xpath("//*[@id='loginButton']")).click();
-        
-	}
+    }
 	
 	@After
 	public void tearDown(){
